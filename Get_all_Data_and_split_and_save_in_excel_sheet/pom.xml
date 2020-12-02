@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.excelsheet.data</groupId>
+  <artifactId>Get_all_Data_and_split_and_save_in_excel_sheet</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Get_all_Data_and_split_and_save_in_excel_sheet</name>
+  <dependencies>
+  <!-- <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>4.1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>4.1.2</version>
+</dependency> -->
+<!-- https://mvnrepository.com/artifact/jexcelapi/jxl -->
+<dependency>
+    <groupId>jexcelapi</groupId>
+    <artifactId>jxl</artifactId>
+    <version>2.4.2</version>
+</dependency>
+<dependency> 
+      <groupId>org.apache.poi</groupId> 
+      <artifactId>poi</artifactId> 
+      <version>3.12</version> 
+    </dependency> 
+    <dependency> 
+      <groupId>org.apache.poi</groupId> 
+      <artifactId>poi-ooxml</artifactId> 
+      <version>3.12</version> 
+    </dependency>
+
+  </dependencies>
+</project>
